@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +7,19 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+    margin:0 10px 15px 10px;
+}
+
+
+
+body{
+    background-image: url(../Imagens/15187163-fundo-de-site-moderno-futurista-de-conexao-de-mapa-do-mundo-ou-de-pagina-de-capa-para-conceito-de-tecnologia-e-financas-e-empresa-futura-de-educacao-vetor.jpg);
+    
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*Header*/
@@ -16,23 +31,31 @@ header{
     margin: 5px auto;
 }
 
-header nav ul{
+.imgnav{
     display: flex;
-    flex-direction: row;
-    list-style: none;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-header nav ul a{
-    text-decoration: none;
+
+header .imgnav nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.sal{
+    padding: 0 15px;
+    background-color: purple;
+    color: white;
+    margin: 0 5px;
+    border-radius: 15px;
 }
 
 header nav ul li{
     padding: 0 15px;
-    background-color: purple;
-    color: white;
-    padding: 0 10px;
-    margin: 0 5px;
-    border-radius: 15px;
+ margin: 0 5px;
+ color: antiquewhite;
 }
 
 header nav ul li:hover{
@@ -43,9 +66,128 @@ header nav ul li:hover{
 #logodosite{
     padding: 2px;
     border-radius: 25px;
-    border: solid 2px purple;
     margin: 5px;
 }
 
 
+header .buttsc {
+     display: flex;
+     justify-content: space-between;
+    width: 400px;
+    height: 30px;
+}
+
+.bnt{
+    padding: 0 15px;
+    background-color: purple;
+    color: white;
+    padding: 0 10px;
+    margin: 0 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.bnt:hover{
+    background-color: rgb(199, 77, 199);
+    border-radius: 8px;
+}
+
+input{
+    border: 3px solid white;
+    margin: 0 50px 0 0;
+}
+
+
+
 /*EndHeader*/
+
+
+/*main*/
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    margin: 0 20px 70px 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h1{
+    color: white;
+    align-items: center;
+    margin: 0 0 40px 0;
+    font-size: xxx-large;
+    
+}
+
+p{
+    color: antiquewhite;
+    font-size: large;
+}
+
+
+/*EndMain*/
+
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    color: antiquewhite;
+font-size: x-large;
+
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    border: 2px solid purple;
+    border-radius: 15px;
+   margin: 7px 0 7px 0;
+    width: 100%;
+
+}
+
+.Enviar{
+    text-align: center;
+    width: 100%;
+    background-color: purple;
+    color: antiquewhite;
+    padding: 2px 0;
+}
+
+.Enviar:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: purple;
+
+}
+
+/*EndFooter*/
