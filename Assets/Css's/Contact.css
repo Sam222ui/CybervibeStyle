@@ -1,0 +1,15 @@
+@import url(./style.css);
+@import url(./Header.css);
+@import url(./Footer.css);
+
+h2{
+font-size: x-large;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}

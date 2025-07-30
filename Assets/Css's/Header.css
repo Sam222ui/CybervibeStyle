@@ -1,0 +1,75 @@
+header{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+}
+
+.imgnav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+header .imgnav nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.sal{
+    padding: 0 15px;
+    background-color: purple;
+    color: white;
+    margin: 0 5px;
+    border-radius: 15px;
+}
+
+header nav ul li{
+    padding: 0 15px;
+ margin: 0 5px;
+ color: antiquewhite;
+}
+
+header nav ul li:hover{
+    background-color: rgb(199, 77, 199);
+    border-radius: 8px;
+}
+
+#logodosite{
+    padding: 2px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+
+header .buttsc {
+     display: flex;
+     justify-content: space-between;
+    width: 400px;
+    height: 30px;
+}
+
+.bnt{
+    padding: 0 15px;
+    background-color: purple;
+    color: white;
+    padding: 0 10px;
+    margin: 0 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.bnt:hover{
+    background-color: rgb(199, 77, 199);
+    border-radius: 8px;
+}
+
+input{
+    border: 3px solid white;
+    margin: 0 50px 0 0;
+}
+
+
