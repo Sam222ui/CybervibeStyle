@@ -1,2 +1,26 @@
 @import url(./Header.css);
 @import url(./style.css);
+
+body{
+    background-image: url(../Imagens/universe.jpg);
+    background-size: 100%;
+    color: aliceblue;
+}
+
+video{
+    border: 3px solid purple;
+}
+
+section{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
